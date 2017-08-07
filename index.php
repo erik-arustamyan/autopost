@@ -15,7 +15,7 @@ function mb_ucfirst($str) {
 
 
 $public = 151512018;
-$attach = "photo-151512018_456239017";
+$attach = "photo366102093_456239024";
 $rand36 = rand(3,6);
 $attachments = "";
 $randtext = file_get_contents("text/".$public.".txt");
