@@ -20,7 +20,7 @@ $rand36 = rand(3,6);
 $attachments = 'HELLO';
 $randtext = file_get_contents("text/".$public.".txt");
 
-$text = GenTheText('Hi');
+$text = GenTheText('<h1>Привет Гор !!!!</h1>');
 
 echo $public."<br/>".$attach."<br/>".$attachments."<br/>".$text;
 //Публикуем пост на стену
