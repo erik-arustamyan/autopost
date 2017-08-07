@@ -15,12 +15,12 @@ function mb_ucfirst($str) {
 
 
 $public = 151512018;
-$attach = "https://static.pexels.com/photos/20974/pexels-photo.jpg";
+$attach = "photo-151512018_456239017";
 $rand36 = rand(3,6);
-$attachments = "https://static.pexels.com/photos/20974/pexels-photo.jpg";
+$attachments = "photo-151512018_456239017";
 $randtext = file_get_contents("text/".$public.".txt");
 
-$text = GenTheText('<h1>Привет Гор !!!!</h1>');
+$text = GenTheText('Привет Гор');
 
 echo $public."<br/>".$attach."<br/>".$attachments."<br/>".$text;
 //Публикуем пост на стену
