@@ -15,9 +15,9 @@ function mb_ucfirst($str) {
 
 
 $public = 151512018;
-$attach = "img/".$public.".txt";
+$attach = "https://static.pexels.com/photos/20974/pexels-photo.jpg";
 $rand36 = rand(3,6);
-$attachments = 'HELLO';
+$attachments = "https://static.pexels.com/photos/20974/pexels-photo.jpg";
 $randtext = file_get_contents("text/".$public.".txt");
 
 $text = GenTheText('<h1>Привет Гор !!!!</h1>');
