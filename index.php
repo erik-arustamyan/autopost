@@ -17,7 +17,7 @@ function mb_ucfirst($str) {
 $public = 151512018;
 $attach = "photo-151512018_456239017";
 $rand36 = rand(3,6);
-$attachments = "photo-151512018_456239017";
+$attachments = "";
 $randtext = file_get_contents("text/".$public.".txt");
 
 $text = GenTheText('Привет Гор');
